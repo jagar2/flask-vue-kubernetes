@@ -10,5 +10,4 @@ spec:
   resources:
     requests:
       storage: 2Gi
-  volumeName: postgres-pv
-  storageClassName: standard
+  storageClassName: rook-ceph-block
